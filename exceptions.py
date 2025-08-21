@@ -24,3 +24,19 @@ else:
     print(f"Result: {result}")
 finally:
     print("Execution completed")  # This line will always execute
+
+
+#try except with finally
+try:
+    file = open("example.txt", "r")
+    content = file.read()
+    print(content)
+except FileNotFoundError as e:
+    print("Error: The file was not found.")
+except IOError as e:
+    print("Error: An I/O error occurred.")
+finally:
+    if 'file' in locals():
+        file.close()
+    print("File operation completed")
+    
