@@ -30,3 +30,10 @@ python setup_venv.py
 
 This is your Python project repository.
 
+
+
+# git commit
+
+git add .
+git commit -m "Your message"
+git push origin main
