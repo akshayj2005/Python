@@ -24,6 +24,7 @@ else:
     print(f"Result: {result}")
 finally:
     print("Execution completed")  # This line will always execute
+print("\n\n\n\n\n")
 
 
 #try except with finally
