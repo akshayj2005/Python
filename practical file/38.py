@@ -7,4 +7,3 @@ except ValueError:
     print("error: invalid input. please enter a valid number.")
 else:
     print(f"The result is {result}.")
-print("this program is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
