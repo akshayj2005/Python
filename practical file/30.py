@@ -18,5 +18,4 @@ else:
 
 print(f"Income Tax: Rs. {tax:.2f}")
 
-print("this program is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
 
