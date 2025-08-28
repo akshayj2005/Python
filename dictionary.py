@@ -27,3 +27,18 @@ my_iter = iter(my_list)
 for value in my_iter:
     print(value)
 print("\n\n\n\n\n")
+
+#custom iterator class
+class CountDown:
+    def __init__(self, start):
+        self.current = start
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if self.current <= 0:
+            raise StopIteration
+        else:
+            self.current -= 1
+            return self.current + 1
