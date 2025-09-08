@@ -43,5 +43,5 @@ for num in range(start, end + 1):
 
     if sum == num:
         print(num, end=" ")
-    
+print("\n")
 

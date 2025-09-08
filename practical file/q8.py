@@ -66,5 +66,5 @@ print(byte_temp)
 byte_temp=65
 print(bytes(byte_temp))
 
-byte_temp="A"
-print(bytes(byte_temp))
+# byte_temp="A"
+# print(bytes(byte_temp))
