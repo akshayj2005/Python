@@ -15,4 +15,6 @@ difference_set = A - B
 print("Difference of A and B (A - B):", difference_set)
 
 
-
+#set comprehension
+squared_set = {x**2 for x in range(1, 6)}
+print("Set of squares from 1 to 5:", squared_set)
