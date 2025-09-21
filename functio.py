@@ -72,17 +72,38 @@
 #             armstrong_numbers.append(num)
 #     return armstrong_numbers
 #armstrong number in a range without recursion
-start_range = int(input("Enter the start of the range: "))
-end_range = int(input("Enter the end of the range: "))
-def armstrong_in_range_no_rec(start, end):
-    armstrong_numbers = []
-    for num in range(start, end + 1):
-        sum_of_powers = sum(int(digit) ** len(str(num)) for digit in str(num))
-        if sum_of_powers == num:
-            armstrong_numbers.append(num)
-    return armstrong_numbers
-# print(f"Armstrong numbers between {start_range} and {end_range}: {armstrong_in_range(start_range, end_range)}")
-print(f"Armstrong numbers between {start_range} and {end_range} without recursion: {armstrong_in_range_no_rec(start_range, end_range)}")
+# start_range = int(input("Enter the start of the range: "))
+# end_range = int(input("Enter the end of the range: "))
+# def armstrong_in_range_no_rec(start, end):
+#     armstrong_numbers = []
+#     for num in range(start, end + 1):
+#         sum_of_powers = sum(int(digit) ** len(str(num)) for digit in str(num))
+#         if sum_of_powers == num:
+#             armstrong_numbers.append(num)
+#     return armstrong_numbers
+# # print(f"Armstrong numbers between {start_range} and {end_range}: {armstrong_in_range(start_range, end_range)}")
+# print(f"Armstrong numbers between {start_range} and {end_range} without recursion: {armstrong_in_range_no_rec(start_range, end_range)}")
+
+#reverse a string without predefined functions
+input_str = input("Enter a string to reverse: ")
+def reverse_string(s):
+    rev_str = ''
+    for char in s:
+        rev_str = char + rev_str
+    return rev_str
+print(f"Reversed string: {reverse_string(input_str)}")
+if input_str == reverse_string(input_str):
+    print(f"{input_str} is a palindrome.")
+else:
+    print(f"{input_str} is not a palindrome.")
+
+def length_of_string(s):
+    count = 0
+    for char in s:
+        count += 1
+    return count
+print(f"Length of the string: {length_of_string(input_str)}")
+
 
 
 
