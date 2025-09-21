@@ -7,7 +7,7 @@ print(text.strip())         # Remove leading and trailing whitespace
 print(text.lstrip())
 print(text.rstrip())
 
-print(text.strip().split(" , "))
+print(text.strip().split(" - "))
 print(" - ".join(text.strip().split(" , ")))
          # Remove leading and trailing whitespace
   # Replace substring
