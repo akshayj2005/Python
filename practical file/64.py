@@ -22,4 +22,3 @@ def fibonacci_recursive(a, b, n, series):
 num = int(input("Enter a number: "))
 print("Fibonacci Series (Recursive):", fibonacci_recursive(0, 1, num, []))
 
-print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")

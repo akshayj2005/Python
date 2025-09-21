@@ -12,4 +12,3 @@ if num < 0:
 else:
     print(f"Factorial of {num} is {factorial(num)}")
     
-print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")

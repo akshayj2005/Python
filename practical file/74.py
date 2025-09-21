@@ -7,4 +7,3 @@ for char in string:
 
 print("Length of string:", count)
 
-print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")

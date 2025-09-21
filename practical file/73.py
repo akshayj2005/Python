@@ -11,4 +11,3 @@ if string == reversed_string:
 else:
     print("The string is NOT a Palindrome.")
 
-print("this code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")

@@ -15,4 +15,3 @@ for i in range(start, end + 1):
     if is_armstrong(i):
         print(i)
 
-print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")

@@ -20,4 +20,3 @@ def get_season(month):
 month = int(input("Enter month number (1-12): "))
 print("Season:", get_season(month))
 
-print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")

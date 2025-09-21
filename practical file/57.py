@@ -31,4 +31,3 @@ print(replaced_text)
 print(index)
 print(count)
 
-print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
