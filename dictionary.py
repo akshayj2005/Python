@@ -42,3 +42,11 @@ class CountDown:
         else:
             self.current -= 1
             return self.current + 1
+
+        
+#write python code to return a disctory using a function 
+def get_user_profile():
+    profile = {
+        "name":"Alice",
+        "age"
+    }

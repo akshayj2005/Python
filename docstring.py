@@ -96,3 +96,4 @@ for i in range(len(s)):
         b += fd[s[i]]
 
 print("Integer value:", b)
+
