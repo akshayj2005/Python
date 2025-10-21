@@ -1,5 +1,3 @@
-# Program to perform addition, subtraction, multiplication, and transpose of 3x3 matrices
-
 # Define two 3x3 matrices
 A = [[1, 2, 3],
      [4, 5, 6],
@@ -9,42 +7,38 @@ B = [[9, 8, 7],
      [6, 5, 4],
      [3, 2, 1]]
 
-# Function to print matrix
-def print_matrix(matrix, name="Matrix"):
-    print(f"\n{name}:")
-    for row in matrix:
-        print(row)
+# Addition
+addition = [[A[i][j] + B[i][j] for j in range(3)] for i in range(3)]
 
-# Matrix Addition
-def add_matrix(A, B):
-    return [[A[i][j] + B[i][j] for j in range(3)] for i in range(3)]
+# Subtraction
+subtraction = [[A[i][j] - B[i][j] for j in range(3)] for i in range(3)]
 
-# Matrix Subtraction
-def sub_matrix(A, B):
-    return [[A[i][j] - B[i][j] for j in range(3)] for i in range(3)]
+# Multiplication
+multiplication = [[sum(A[i][k] * B[k][j] for k in range(3)) for j in range(3)] for i in range(3)]
 
-# Matrix Multiplication
-def mul_matrix(A, B):
-    result = [[0 for _ in range(3)] for _ in range(3)]
-    for i in range(3):
-        for j in range(3):
-            for k in range(3):
-                result[i][j] += A[i][k] * B[k][j]
-    return result
+# Transpose of A
+transpose_A = [[A[j][i] for j in range(3)] for i in range(3)]
 
-# Matrix Transpose
-def transpose_matrix(A):
-    return [[A[j][i] for j in range(3)] for i in range(3)]
+# Transpose of B
+transpose_B = [[B[j][i] for j in range(3)] for i in range(3)]
 
+# Print results
+print("Matrix Addition:")
+for row in addition:
+    print(row)
 
-# Printing results
-print_matrix(A, "Matrix A")
-print_matrix(B, "Matrix B")
+print("\nMatrix Subtraction:")
+for row in subtraction:
+    print(row)
 
-print_matrix(add_matrix(A, B), "Addition (A + B)")
-print_matrix(sub_matrix(A, B), "Subtraction (A - B)")
-print_matrix(mul_matrix(A, B), "Multiplication (A * B)")
-print_matrix(transpose_matrix(A), "Transpose of A")
-print_matrix(transpose_matrix(B), "Transpose of B")
+print("\nMatrix Multiplication:")
+for row in multiplication:
+    print(row)
 
-print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063.")
+print("\nTranspose of Matrix A:")
+for row in transpose_A:
+    print(row)
+
+print("\nTranspose of Matrix B:")
+for row in transpose_B:
+    print(row)

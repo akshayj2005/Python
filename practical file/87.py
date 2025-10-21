@@ -1,3 +1,5 @@
+#Q87. Write python code to define a class create its objects and access the properties in methods of the obejcts.
+
 class Car:
     def __init__(self,make,model,year):
         self.make = make
