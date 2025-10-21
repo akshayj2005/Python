@@ -1,0 +1,20 @@
+{
+  // Disable IntelliSense and autocomplete suggestions
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.parameterHints.enabled": false,
+  "editor.hover.enabled": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.codeActionsOnSave": {},
+  "editor.lightbulb.enabled": "off",
+  "editor.suggest.showWords": false,
+  "typescript.suggest.enabled": false,
+  "javascript.suggest.enabled": false,
+  "html.suggest.html5": false,
+  "css.suggest.basic": false
+}
