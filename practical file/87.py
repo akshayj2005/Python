@@ -11,4 +11,3 @@ class Car:
 my_car = Car("Toyota","Corolla",2020)
 my_car.display_info()
 
-print("This code is written and excecuted by MEHAK BHUTANI with ERP 0231BCA063")
