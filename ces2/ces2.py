@@ -1,6 +1,6 @@
-from doctor import Doctor
-from patient import patient
-from appointments import Appointment
+import doctor
+import patient
+import appointments
 
 def main():
     print("\n🏥 Welcome to Hospital Patient Management System 🏥")
@@ -22,7 +22,7 @@ def main():
                 specialization = input("Enter Specialization: ")
                 slots = input("Enter Available Slots (comma separated): ").split(",")
 
-                doctor = Doctor(doc_id, name, specialization, slots)
+                doctor = doctor.Doctor(doc_id, name, specialization, slots)
                 doctor.save_doctor_data()
                 print("✅ Doctor added successfully.")
             except Exception as e:
@@ -35,7 +35,7 @@ def main():
                 mobile = input("Enter Mobile Number: ")
                 date = input("Enter Appointment Date (YYYY-MM-DD) [optional]: ") or None
 
-                patient = Patient(name, age, mobile, date)
+                patient = patient(name, age, mobile, date)
                 patient.save_patient_data()
                 print("✅ Patient added successfully.")
             except Exception as e:
@@ -48,13 +48,13 @@ def main():
                 date = input("Enter Appointment Date (YYYY-MM-DD): ")
                 time = input("Enter Appointment Time (e.g., 10AM, 3PM): ")
 
-                appointment = Appointment(doctor_id, patient_name, date, time)
+                appointment = appointments.Appointment(doctor_id, patient_name, date, time)
                 appointment.save_appointment()
             except Exception as e:
                 print("Error:", e)
 
         elif choice == "4":
-            Appointment.show_all_appointments()
+            appointments.Appointment.show_all_appointments()
         elif choice == "5":
             print("👋 Exiting the system. Have a good day!")
             break
