@@ -1,0 +1,20 @@
+[
+    {
+        "doctor_id": 1,
+        "patient_name": "Alice Johnson",
+        "date": "2025-10-28",
+        "time": "10AM"
+    },
+    {
+        "doctor_id": 2,
+        "patient_name": "Brian Lee",
+        "date": "2025-10-29",
+        "time": "1PM"
+    },
+    {
+        "doctor_id": 3,
+        "patient_name": "Catherine Davis",
+        "date": "2025-10-30",
+        "time": "12PM"
+    }
+]

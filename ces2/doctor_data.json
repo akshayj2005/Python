@@ -1,0 +1,20 @@
+[
+    {
+        "doctor_id": 1,
+        "name": "Dr. John Smith",
+        "specialization": "Cardiology",
+        "available_slots": ["10AM", "11AM", "3PM"]
+    },
+    {
+        "doctor_id": 2,
+        "name": "Dr. Emily Carter",
+        "specialization": "Dermatology",
+        "available_slots": ["9AM", "1PM", "4PM"]
+    },
+    {
+        "doctor_id": 3,
+        "name": "Dr. Rajesh Patel",
+        "specialization": "Orthopedics",
+        "available_slots": ["8AM", "12PM", "2PM"]
+    }
+]

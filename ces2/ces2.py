@@ -22,8 +22,8 @@ def main():
                 specialization = input("Enter Specialization: ")
                 slots = input("Enter Available Slots (comma separated): ").split(",")
 
-                doctor = doctor.Doctor(doc_id, name, specialization, slots)
-                doctor.save_doctor_data()
+                doc = doctor.Doctor(doc_id, name, specialization, [s.strip() for s in slots])
+                doc.save_doctor_data()
                 print("✅ Doctor added successfully.")
             except Exception as e:
                 print("Error:", e)
@@ -35,8 +35,8 @@ def main():
                 mobile = input("Enter Mobile Number: ")
                 date = input("Enter Appointment Date (YYYY-MM-DD) [optional]: ") or None
 
-                patient = patient(name, age, mobile, date)
-                patient.save_patient_data()
+                pat = patient.Patient(name, age, mobile, date)
+                pat.save_patient_data()
                 print("✅ Patient added successfully.")
             except Exception as e:
                 print("Error:", e)
@@ -48,13 +48,14 @@ def main():
                 date = input("Enter Appointment Date (YYYY-MM-DD): ")
                 time = input("Enter Appointment Time (e.g., 10AM, 3PM): ")
 
-                appointment = appointments.Appointment(doctor_id, patient_name, date, time)
-                appointment.save_appointment()
+                appt = appointments.Appointment(doctor_id, patient_name, date, time)
+                appt.save_appointment()
             except Exception as e:
                 print("Error:", e)
 
         elif choice == "4":
             appointments.Appointment.show_all_appointments()
+
         elif choice == "5":
             print("👋 Exiting the system. Have a good day!")
             break
