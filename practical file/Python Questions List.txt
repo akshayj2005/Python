@@ -1,0 +1,99 @@
+Q1. Write python code to print hello world. 
+Q2. Write python code to demonstrate valid and invalid identifier. 
+Q3. Write python code to demonstrate Keywords. 
+Q4. Write python code to demonstrate indentation. 
+Q5. Write a python code to demonstrate various types of comments. 
+Q6. Write python code to demonstrate input method. 
+Q7. Write python code to demonstrate datatypes and variables. 
+Q8. Write python code to demonstrate binary datatypes. 
+Q9. Write python code to demonstrate some of core objects and functions. 
+Q10. Write python code to swap value of two variables using all possible ways. 
+Q11. Write python code to swap value of three variables using all possible ways. 
+Q12. Write python code to input name, class, roll no, age and print using formatted print method. 
+Q13. Write python code to calculate your age on given date. 
+Q14. Write python code to check whether given year is Leap year or not. 
+Q15. Write python code to check whether the given number is perfect number or not. 
+Q16. Write python code to check whether the given number is Armstrong number or not. 
+Q17. Write python code to check whether the given number is prime or not. 
+Q18. Write python code to print all prime, all perfect and all Armstrong number in a given range. 
+Q19. Write python code to print all the leap years from year 1-2025. Also print the total count.  
+Q20. Write python code to print all the perfect numbers from 1-2025. Also print the total count. 
+Q21. Write python code to demonstrate for statement. 
+Q22. Write python code to demonstrate nested for loop statement. 
+Q23. Write python code to demonstrate list comprehensions. 
+Q24. Write python code to demonstrate index and value enumeration. 
+Q25. Write python code to print the following pattern.(12 patterns) 
+Q26. Write a python code to demonstrate multiple inputs, variable inputs and integer inputs and separate them by spaces. 
+Q27. Write a python code to demonstrate multiple inputs, variable inputs and integer inputs in a list and separate them by spaces. 
+Q28. Write a python code to demonstrate multiple inputs, variable inputs and integer inputs and separate them by commas. 
+Q29. WAP in python to print last digit of a given integer number. 
+Q30. Write a python code to calculate income tax for the input income by adhering to the rules. 
+• There is no tax on income till Rs. 250000; 
+• 5% on between Rs. 250001 to Rs. 500000; 
+• 10% on between Rs. 500001 to Rs. 1000000; 
+• 20% on between Rs. 1000001 to Rs. 2000000; 
+• 30% on between Rs. 2000001 to Rs. 3000000; 
+• 40% on above Rs. 3000001; 
+Q31. Write a python code to demonstrate continue statement with for loop. 
+Q32. Write a python code to demonstrate while loop. 
+Q33. Write a python code to demonstrate while string. 
+Q34. Write a python code to demonstrate continue statement with while loop. 
+Q35. Write a python code to demonstrate break statement with for loop. 
+Q36. Write a python code to demonstrate break statement with while loop. 
+Q37. Write a python code to demonstrate try and except. 
+Q38. Write a python code to demonstrate try and except and else. 
+Q39. Write a python code to demonstrate try and except and finally. 
+Q40. Write a python code to demonstrate try, except, else and finally. 
+Q41. Write a python code to read content of a file using try, except and finally. 
+Q42. Python code to create and modify a list. 
+Q43. Write python code to demonstrate slicing of the list.  
+Q44. Write python code to use list comprehensions. 
+Q45. Write python code to create and access tuples. 
+Q46. Write python code to create and access nested tuples. 
+Q47. Write python code to demonstrate set operations. 
+Q48. Python code to create and modify a dictionary. 
+Q49. Write python code to access and remove dictionary element. 
+Q50. Write python code to iterate through dictionary item. 
+Q51. Write a python code to demonstrate built-in iterators. 
+Q52. Write a python code to use iterator inside a loop. 
+Q53. Write a python code to create and use a custom iterator. 
+Q54. Write a python code to create a simple generator. 
+Q55. Write a python code to use a generator with a loop. 
+Q56. Write a python code to chain generators. 
+Q57. Write a python code to demonstrate various string function. 
+Q58. Write a python code to create Menu based Calculator. 
+Q59. Wap in python to determine Season based on month. 
+Q60. Write a python code to demonstrate set comprehension. 
+Q61. Write python code to use Lambda expressions with map. 
+Q62. Write python code to calculate factorial of a given number using recursive function. 
+Q63. Write python code to print factorial of a given number using simple function (without recursion). 
+Q64. Write python code to print Fibonacci series upto given input number using both simple function (non-recursive) and recursive function. 
+Q65. Write python code to demonstrate global variable. 
+Q66. Python code to demonstrate a function. 
+Q67. Write python code to demonstrate function with return. 
+Q68. Write python code to demonstrate function with default parameter. 
+Q69. Write python code to demonstrate function with multiple returns. 
+Q70. Write python code to demonstrate a function which returns list/dictionary. 
+Q71. Write a python code to print all the Armstrong number in a given range. 
+Q72. Wap in python to reverse a string without using predefined functions. 
+Q73. Wap in python to check whether the string is palindrome or not. 
+Q74. Wap in python to calculate the length of a string without using built-in Len() function.  
+Q75. Write a python code to demonstrate global variables with nested function. 
+Q76. Write python code to demonstrate docstring for a function 
+Q77. Write python code to demonstrate decorator. 
+Q78. Write python code to demonstrate decorator with argument. 
+Q79. Write python code to demonstrate decorator using functiontool.wraps. 
+Q80. write python code to print addition, subtraction, multiplication and transpose of two 3x3 matrix. 
+Q81. Write python code to perform addition, subtraction, multiplication and transpose of two 
+3x3 matrix:- With NumPy  
+Q82. Write python code to create a custom module (user-defined module). 
+Q83. Write python code to use a module. 
+Q84. Write python code to import specific function of a module. 
+Q85. Write python code to import all function from a module. 
+Q86. List and demonstrate various standard library module of python. 
+Q87. Write python code to define a class create its objects and access the properties in methods of the objects. 
+Q88. Write python code to demonstrate method overloading and method overriding. 
+Q89. Write python code to demonstrate abstraction. 
+Q90. Write python code to demonstrate inheritance. 
+Q91. Write a python code to demonstrate deletion of object explicitly. 
+Q92. Write a python code to demonstrate user defined exception. 
