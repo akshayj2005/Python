@@ -7,7 +7,7 @@ class ValidationError(Exception):
         return f"ValidationError in field '{self.field}': {self.message}"
 def validate_age(age):
     if age < 0 or age > 120:
-        raise ValidationError("Age must be between 0 and 120", "age")
+        raise ValidationError("Age must be between 0 and 120", age)
     return True
 
 try:
